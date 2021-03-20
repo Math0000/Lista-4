@@ -46,7 +46,7 @@ def montar_matriz():
             lin = mat_p[2+i*n]
     except IndexError:
         print("O numero de linhas informado no arquivo não ta certo")
-        print("Escreve la o que falta no arquivo e depois executa o programa de novo")
+        print("Escreve la o que falta no arquivo e depois executa o programa de novo ")
         return 0
     
     try:
